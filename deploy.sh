@@ -1,1 +1,1 @@
-./hugo.exe --baseUrl="http://adamveld12.github.io" --log --theme=hyde
+./hugo.exe --log --theme=hyde
