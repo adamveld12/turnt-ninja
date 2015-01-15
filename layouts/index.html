@@ -6,7 +6,7 @@
     <div class="content container">
       <section id="main">
         <ul id="list" class="clean-list">
-          {{ .Data.Pages }}
+          {{ range .Data.Pages }}
           {{ .Render "summary"}}
           {{ end }}
         </ul>
