@@ -4,10 +4,9 @@
   <body>
     {{ partial "sidebar.html" . }}
     <div class="content container">
-      <h1 class="post-title">Recent</h1>
       <section id="main">
         <ul id="list" class="clean-list">
-          {{ range first 10 .Data.Pages }}
+          {{ .Data.Pages }}
           {{ .Render "summary"}}
           {{ end }}
         </ul>
