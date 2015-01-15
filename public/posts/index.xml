@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posts on Posts and Stuff </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/posts/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 14 Jan 2015 20:30:06 CST</updated>
+    
+    <item>
+      <title>One Game A Month 2015</title>
+      <link>http://localhost:1313/posts/1GAM/</link>
+      <pubDate>Wed, 14 Jan 2015 20:30:06 CST</pubDate>
+      
+      <guid>http://localhost:1313/posts/1GAM/</guid>
+      <description>
+
+&lt;p&gt;A few friends of mine mentioned &lt;a href=&#34;http://www.onegameamonth.com&#34;&gt;One Game A Month&lt;/a&gt; and I saw it as a perfect opportunity to pick up a couple of projects to help hone some of my newly acquired skills in &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt; and &lt;a href=&#34;http://www.rust-lang.org/&#34;&gt;Rust&lt;/a&gt;. I sat down and banged out a list of objectives for my 1GAM, and I&amp;rsquo;m going to try to incorporate the following techniques in some of them. Every game doesn&amp;rsquo;t have to have all or any of these, they&amp;rsquo;re just some things I hope to have under my belt by the end of the year:&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Objectives&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Procedural Generation: Levels, or otherwise&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gameprogrammingpatterns.com/component.html&#34;&gt;Entity Component System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://runhello.com/p/396&#34;&gt;Audio/Rhythm gameplay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sandbox&lt;/li&gt;
+&lt;li&gt;Retro/line art&lt;/li&gt;
+&lt;li&gt;HTML 5 Games, maybe a little &lt;a href=&#34;http://threejs.org/&#34;&gt;three.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are my game ideas for the first few months, I&amp;rsquo;ll update this as time goes on.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Game Ideas&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;January&lt;/h2&gt;
+
+&lt;p&gt;An HTML5 browser game. The idea here is to learn some simple concepts for building multiplayer games.
+ * Multiplayer: Use socket.io to implement multiplayer
+ * Start with something dumb, like tic tac toe and work from there, or a MUD&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;February&lt;/h2&gt;
+
+&lt;p&gt;Music based game where you&amp;rsquo;re a musical note that rides a sound wave. Play around with generating a line from a music file.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;March&lt;/h2&gt;
+
+&lt;p&gt;Rhythm game in HTML5&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "sidebar.html" . }}
+    <div class="content container">
+      <h1 class="post-title">Recent</h1>
+      <section id="main">
+        <ul id="list" class="clean-list">
+          {{ range first 10 .Data.Pages }}
+          {{ .Render "summary"}}
+          {{ end }}
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>

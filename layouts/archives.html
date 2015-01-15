@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "sidebar.html" . }}
+    <div class="content container">
+      <h1 class="post-title">Archives</h1>
+      <section id="main">
+        <ul id="list" class="clean-list">
+          {{ .Render "summary"}}
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>

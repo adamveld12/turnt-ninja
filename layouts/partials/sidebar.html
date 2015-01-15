@@ -1,0 +1,31 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>{{ .Site.Title }}</h1>
+      <p class="lead">
+      {{ with .Site.Params.Description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+      </p>
+
+      <div class="spinning_icons">	
+        <a href="http://www.twitter.com/adamveld12" class="twitter" title="twitter">Twitter</a>
+        <a href="http://digg.com/user/fdfac2236bff41b3b972bb598453d7cb/diggs.rss" class="digg" title="digg">Digg</a>
+        <a href="https://www.flickr.com/photos/111913225@N04/" class="flickr" title="flickr">Flickr</a>
+        <a href="http://www.linkedin.com/in/aveldhousen" class="linkedin" title="linkedin">Linkedin</a>
+        <a href="https://www.youtube.com/channel/UCzhhrinYmVsPQ7zLeUvDMaQ" class="youtube" title="youtube">YouTube</a>
+        <a href="http://www.twitter.com/adamveld12" class="foursquare" title="foursquare">Foursquare</a>
+        <a href="http://www.stumbleupon.com/stumbler/adamveld12" class="stumbleupon" title="stumbleupon">Stumbleupon</a>
+        <a href="http://www.twitter.com/adamveld12" class="facebook" title="facebook">Facebook</a>
+        <a href="{{ .RSSlink }}" class="rss" title="rss">RSS</a>
+      </div>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{.Url}}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
+
+    <p id="copyright">{{ .Site.Params.Author }} &copy; {{.Now.Format "2006"}}. All rights reserved.</p>
+  </div>
+</div>
