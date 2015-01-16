@@ -1,1 +1,1 @@
-./hugo.exe --log --theme=hyde
+./hugo.exe --log
