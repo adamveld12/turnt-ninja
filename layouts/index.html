@@ -2,15 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   {{ partial "head.html" . }}
   <body>
-    {{ partial "sidebar.html" . }}
-    <div class="content container">
-      <section id="main">
-        <ul id="list" class="clean-list">
-          {{ range .Data.Pages }}
-          {{ .Render "summary"}}
-          {{ end }}
-        </ul>
-      </section>
+    <div class="site">
+      {{ partial "sidebar.html" . }}
+      <div id="home" class="content" >
+        {{ partial "sidebar-button.html" . }}
+        <div id="post-info">
+          <section id="main">
+            <ul id="list" class="clean-list">
+              {{ range .Data.Pages }}
+              {{ .Render "summary"}}
+              {{ end }}
+            </ul>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 </html>
