@@ -7,8 +7,9 @@
 }
 
 #cover-photo-container img {
+  width: 100%;
   max-width: 900px;
-  max-height: 600px;
+  max-height: 550px;
 }
 
 #post-info {
