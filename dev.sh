@@ -1,1 +1,1 @@
-./hugo.exe server --watch --theme=hyde -D
+./hugo.exe server --watch -D #--theme=hyde
