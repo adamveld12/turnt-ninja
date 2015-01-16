@@ -5,9 +5,11 @@
   <body>
     <div class="site">
       {{ partial "sidebar.html" . }}
+
       <div id="home" class="content" >
         {{ partial "sidebar-button.html" . }}
-        <article class="post">
+
+        <article class="post post-info">
           <header>
             <h1><a href='{{ .Permalink }}'> {{ .Title }}</a></h1>
             <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
@@ -19,7 +21,9 @@
               <!-- put share links here -->
           </footer>
         </article>
+
       </div>
+
     </div>
   </body>
 </html>
