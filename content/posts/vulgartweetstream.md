@@ -1,7 +1,8 @@
 +++
-date = "2015-01-15T00:46:47-06:00"
+date = "2014-11-05T00:46:47-06:00"
 draft = true
-title = "vulgartweetstream"
+title = "Dirty, Delicious Tweets"
+tags = ["Programming", "Javascript", "Redis"]
 
 +++
 
