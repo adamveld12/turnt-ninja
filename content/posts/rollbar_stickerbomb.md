@@ -1,6 +1,6 @@
 +++
 date = "2014-08-14T00:12:59-06:00"
-draft = false
+draft = true
 title = "So I Scored a Rollbar"
 tags = [ "Car", "Miata", "DIY" ]
 +++
