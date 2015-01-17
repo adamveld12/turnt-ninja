@@ -4,11 +4,15 @@
   {{ partial "head.html" . }}
   <body>
     <div class="site">
-      <h1>404, Oops</h1>
-      <p>
-        I think you took a wrong turn somewhere...
-        <a href="{{ .Site.BaseUrl }}">Go back home</a>
-      </p>
+      {{ partial "sidebar.html" . }}
+      <div id="home" class="content" >
+        {{ partial "sidebar-button.html" . }}
+        <h1 class="status-banner">404</h1>
+        <p>
+          Oops, I think you took a wrong turn somewhere... Let's take you
+          <a href="{{ .Site.BaseUrl }}">back home</a>
+        </p>
+      </div>
     </div>
   </body>
 </html>

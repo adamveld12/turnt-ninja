@@ -1,8 +1,10 @@
 <div id="sidebar" class="sidebar">
     
     <div class="header">
-      <h1>{{ .Site.Title }}</h1>
-      <p class="lead">
+      <h1 class="title">
+        <a href="{{ .Site.BaseUrl }}"> {{ .Site.Title }}</a>
+      </h1>
+      <p class="tagline">
       {{ .Site.Params.Description }}
       </p>
     </div>
