@@ -1,1 +1,1 @@
-rm -rf public && ./hugo.exe server --watch -D #--theme=hyde
+git rm -rf public && ./hugo.exe server --watch -D #--theme=hyde

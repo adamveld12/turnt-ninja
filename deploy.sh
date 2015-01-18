@@ -1,2 +1,2 @@
-rm -rf public
+git rm -rf public/*
 ./hugo.exe --log
