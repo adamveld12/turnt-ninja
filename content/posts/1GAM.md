@@ -22,8 +22,8 @@ Here are my game ideas for the first few months, I'll update this as time goes o
 
 ## [January](/posts/1GAM-mud)
  An HTML5 browser game. The idea here is to learn some simple concepts for building multiplayer games.
- * Multiplayer: Use socket.io to implement multiplayer
- * Start with something dumb, like tic tac toe and work from there, or a MUD
+  * Multiplayer: Use socket.io to implement multiplayer
+  * Start with something dumb, like tic tac toe and work from there, or a MUD
  
 ## February
  Music based game where you're a musical note that rides a sound wave. Play around with generating a line from a music file.

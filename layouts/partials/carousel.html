@@ -1,0 +1,9 @@
+<div id="carousel">
+  <ul style="margin-left: 0px;">
+    {{ range .Images }}
+    <li>
+      <img src="{{ .Source }}" alt="{{ .Name }}">
+    </li>
+    {{ end }}
+  </ul>
+</div>

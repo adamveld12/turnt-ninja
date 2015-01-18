@@ -1,6 +1,7 @@
 baseurl = "http://words.veldhousen.ninja"
 languageCode = "en-us"
 title = "Posts and Stuff"
+DisqusShortname = "wordsveldhousen"
 
 [params]
   Copyright = "Adam V"

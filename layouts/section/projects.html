@@ -6,12 +6,15 @@
       {{ partial "sidebar.html" . }}
       <div id="home" class="content" >
         {{ partial "sidebar-button.html" . }}
-
         <div id="post-info">
           {{ partial "cover-photo.html" . }}
           <section id="main">
+            <header>
+              <h1>Projects</h1>
+              <div class="meta">Crap I've made since I've became a code junkie</div>
+            </header>
             <ul id="list" class="clean-list">
-              {{ range where .Data.Pages "Section" "posts" }}
+              {{ range where .Data.Pages "Section" "projects" }}
                 {{ .Render "summary"}}
               {{ end }}
             </ul>

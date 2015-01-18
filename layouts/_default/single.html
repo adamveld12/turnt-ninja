@@ -11,9 +11,7 @@
             <h2><a href='{{ .Permalink }}'> {{ .Title }}</a></h2>
           </header>
           {{ .Content }}
-          <footer>
-              <!-- put share links here -->
-          </footer>
+          {{ partial "footer.html" . }}
         </article>
       </div>
     </div>
