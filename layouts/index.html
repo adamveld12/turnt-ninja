@@ -1,24 +1,44 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html class="no-js" lang="">
   {{ partial "head.html" . }}
   <body>
-    <div class="site">
-      {{ partial "sidebar.html" . }}
-      <div id="home" class="content" >
-        {{ partial "sidebar-button.html" . }}
-
-        <div id="post-info">
-          {{ partial "cover-photo.html" . }}
-          <section id="main">
-            <ul id="list" class="clean-list">
-              {{ range where .Data.Pages "Section" "posts" }}
-                {{ .Render "summary"}}
-              {{ end }}
-            </ul>
-          </section>
+   <!--[if lt IE 8]>
+       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+   <![endif]-->
+      <!-- header -->
+      <header class="site-head">
+        <img src="https://farm8.staticflickr.com/7476/16289892801_ca635f8f14_o.jpg" alt="banner"></img>
+        <div class="header">
+          <h1>{{ .Site.Params.Author }}</h1>
+          <div class="meta">{{ .Site.Params.Description }}</div>
+          {{ partial "social.html" . }}
         </div>
+      </header>
+      <!-- post list --!>
+      <section id="main">
+        <ul id="list" class="clean-list">
+          {{ range where .Data.Pages "Section" "posts" }}
+          {{ .Render "summary"}}
+          {{ end }}
+        </ul>
+      </section>
 
-      </div>
-    </div>
+      <!-- external links -->
+    <!--   {{ partial "sidebar.html" . }}\ -->
+    <!--   <div id="home" class="content" >\ -->
+    <!--     <div id="post&#45;info"> -->
+    <!--       {{ partial "cover&#45;photo.html" . }} -->
+    <!--       <section id="main"> -->
+    <!--         <ul id="list" class="clean&#45;list"> -->
+    <!--           {{ range where .Data.Pages "Section" "posts" }} -->
+    <!--           {{ .Render "summary"}} -->
+    <!--           {{ end }} -->
+    <!--         </ul> -->
+    <!--       </section> -->
+    <!--     </div> -->
+    <!--  -->
+    <!--   </div> -->
+    <!-- </div> -->
+  {{ partial "scripts" . }}
   </body>
 </html>
