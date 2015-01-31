@@ -1,73 +1,7 @@
-.content a {
-  color: #224;
-}
-
-.status-banner {
-  font-size: 4em;
-  margin-top: 5em;
-  margin-bottom: 2em;
-}
-
-#cover-photo-container {
-  margin-bottom: 2em;
-}
-
-#cover-photo-container img {
-  width: 100%;
-  max-width: 900px;
-  max-height: 550px;
-}
-
-#post-info {
-  margin-top: -1px;
-}
-
-#main h1 {
-  font-size: 2.25em;
-  margin-bottom: 1.5em;
-}
-
-.header h1 {
-  font-size: 1.5rem;
-  padding-bottom: 15px;
-}
-
-#copyright {
-  font-size: 0.45rem;
-}
-
-
-.post {
-  margin-bottom: 30px;
-}
-.post h2 {
-  margin-left: 0;
-  margin-bottom: 0.8em;
-}
-.post header {
-  margin-bottom: 0.8em;
-}
-.post p {
-  margin-bottom: 1em;
-  margin-left: 5px;
-}
-
-.post footer {
-  margin-left: 5px;
-}
-
-.meta {
-  font-size: 0.9em;
-}
-
-.sidebar-nav {
-  text-align: center;
-}
 
 .clean-list {
   list-style-type: none;
 }
-
 
 .spinning_icons a{
 	width:32px;
