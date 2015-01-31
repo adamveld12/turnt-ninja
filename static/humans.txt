@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & techonology colophon
+
+# TEAM
+
+  Adam Veldhousen -- Developer -- http://www.twitter.com/adamveld12
+  Adam Veldhousen -- Writer -- http://www.twitter.com/adamveld12
+
+
+# TECHNOLOGY COLOPHON
+  CSS3, HTML5
+  Hugo, JQuery, Heroku, Normalize.css
