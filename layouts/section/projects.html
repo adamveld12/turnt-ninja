@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html class="no-js" lang="en">
   {{ partial "head.html" . }}
   <body>
-    <div class="site">
-      {{ partial "sidebar.html" . }}
-      <div id="home" class="content" >
-        {{ partial "sidebar-button.html" . }}
-        <div id="post-info">
-          {{ partial "cover-photo.html" . }}
-          <section id="main">
-            <header>
-              <h1>Projects</h1>
-              <div class="meta">Crap I've made since I've became a code junkie</div>
-            </header>
-            <ul id="list" class="clean-list">
-              {{ range where .Data.Pages "Section" "projects" }}
-                {{ .Render "summary"}}
-              {{ end }}
-            </ul>
-          </section>
-        </div>
-
-      </div>
-    </div>
+   <!--[if lt IE 8]>
+       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+   <![endif]-->
+  <section id="main">
+    <header>
+      <h1>Projects</h1>
+      <div class="meta">Crap I've made since I've became a code junkie</div>
+    </header>
+    <ul id="list" class="clean-list">
+      {{ range where .Data.Pages "Section" "projects" }}
+        {{ .Render "summary"}}
+      {{ end }}
+    </ul>
+  </section>
+  {{ partial "scripts.html" . }}
   </body>
 </html>
