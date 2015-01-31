@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
   {{ partial "head.html" . }}
   <body>
    <!--[if lt IE 8]>
        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
    <![endif]-->
-
+  <div class="post-home">
+    <h1>
+      <a href="{{ .Site.BaseUrl}}" >{{ .Site.Params.Author }}</a>
+    </h1>
+    {{ partial "social.html" . }}
+  </div>
   <!-- header -->
-  <article class="post">
-    <header class="post-header">
+  <article class="post main">
+    <header>
+      <div class="meta larger">{{ .Date.Format "Jan 2, 2006" }}<br>
+      Read Time: {{ .ReadingTime }} minutes.
+    </div>
       <h1>
         <a href='{{ .Permalink }}'> {{ .Title }}</a>
       </h1>
-      <div class="meta">
-        {{ .Date.Format "Mon, Jan 2, 2006" }}<br/>
-        Estimated Reading Time: {{ .ReadingTime }} minutes.
-      </div>
     </header>
-    {{ .Content }}
-    {{ partial "comments.html" . }}
+    <section class="content">
+      {{ .Content }}
+    </section>
+    <footer>
+      <section class="nav">
+        {{ if .Prev }}
+          <a  clas="pull-left" href="{{ .Prev.Permalink }}">&#8592; {{ .Prev.Title }}</a>
+        {{ end }}
+
+        {{ if .Next }}
+          <a  class="pull-right" href="{{ .Next.Permalink }}">{{ .Next.Title }} &#8594;</a>
+        {{ end }}
+      </section>
+      {{ partial "comments.html" . }}
+    </footer>
   </article>
   {{ partial "scripts.html" . }}
   </body>

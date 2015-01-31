@@ -1,0 +1,8 @@
+<header class="site-head">
+  <!-- <img src="https://farm8.staticflickr.com/7476/16289892801_ca635f8f14_o.jpg" alt="banner"></img> -->
+  <div class="header">
+    <h1>{{ .Site.Params.Author }}</h1>
+    <div class="meta">{{ .Site.Params.Description }}</div>
+    {{ partial "social.html" . }}
+  </div>
+</header>
