@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  {{ partial "head.html" . }}
+  <body>
+   <!--[if lt IE 8]>
+       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+   <![endif]-->
+  <div class="post-home">
+    <h1>
+      <a href="{{ .Site.BaseUrl}}" >{{ .Site.Params.Author }}</a>
+    </h1>
+    {{ partial "social.html" . }}
+  </div>
+  <!-- header -->
+  <article class="post main">
+    <header>
+      <div class="meta larger">{{ .Date.Format "Jan 2, 2006" }}<br>
+    </div>
+      <h1>
+        <a href='{{ .Permalink }}'> {{ .Title }}</a>
+      </h1>
+    </header>
+    <section class="content">
+      {{ .Content }}
+    </section>
+  </article>
+  {{ partial "scripts.html" . }}
+  </body>
+</html>
