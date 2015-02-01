@@ -1,16 +1,16 @@
 #carousel {
-  width: 780px;
+  width: 800px;
   overflow:hidden;
 }
 
 #carousel ul {
-  width: 4680px;
+  width: 4200px;
   padding: 0;
   margin: 0;
 }
 
 #carousel ul li {
-  width:780px;
+  width:800px;
   text-align: center;
   list-style: none;
   float:	left;
