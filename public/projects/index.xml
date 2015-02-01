@@ -3,7 +3,7 @@
   <channel>
       <title>Projects on Posts and Stuff </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://words.veldhousen.ninja/projects/index.xml/</link>
+    <link>http://localhost:1313/projects/index.xml/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Arcade</title>
-      <link>http://words.veldhousen.ninja/projects/arcade/</link>
+      <link>http://localhost:1313/projects/arcade/</link>
       <pubDate>Thu, 16 Feb 2012 02:27:45 CST</pubDate>
       
-      <guid>http://words.veldhousen.ninja/projects/arcade/</guid>
+      <guid>http://localhost:1313/projects/arcade/</guid>
       <description>&lt;p&gt;Arcade is a Scaleform tech demo that demonstrates how to integrate flash mini games into an Unreal Engine game. The 3D artwork (Arcade Machine and TV) were done by me in 3DS Max 2012 and I skinned them using Photoshop CS3. The flash games and music were made by Eric Freeman in Flash Studio and I whipped up a bit on UnrealScript and kismet magic to send keyboard and mouse inputs to them.&lt;/p&gt;
 
 &lt;p&gt;Features:&lt;/p&gt;
@@ -31,10 +31,10 @@
     
     <item>
       <title>Ball Descent</title>
-      <link>http://words.veldhousen.ninja/projects/balldescent/</link>
+      <link>http://localhost:1313/projects/balldescent/</link>
       <pubDate>Mon, 16 May 2011 02:27:45 -0600</pubDate>
       
-      <guid>http://words.veldhousen.ninja/projects/balldescent/</guid>
+      <guid>http://localhost:1313/projects/balldescent/</guid>
       <description>&lt;p&gt;Ball Descent is a 3D, top down platform game made in Unreal Development Kit for a school project. Ball Descent was made by Adam Veldhousen, Eric Freeman, and Joshua Klein.&lt;/p&gt;
 
 &lt;p&gt;The game features:&lt;/p&gt;
@@ -76,10 +76,10 @@
     
     <item>
       <title>Infinecraft</title>
-      <link>http://words.veldhousen.ninja/projects/infinecraft/</link>
+      <link>http://localhost:1313/projects/infinecraft/</link>
       <pubDate>Fri, 16 Apr 2010 02:27:52 -0600</pubDate>
       
-      <guid>http://words.veldhousen.ninja/projects/infinecraft/</guid>
+      <guid>http://localhost:1313/projects/infinecraft/</guid>
       <description>&lt;p&gt;Infinecraft is a 3D procedurally generated platform puzzle game made in XNA 3.1 in C# for a school project. Built by Adam Veldhousen, Eric Freeman, Barry Nix and Jefferson Wagner, this was our first attempt at a 3D game and we completed it in just 5 weeks time. Barry implemented the physics and collision detection components, Jefferson worked on the perlin/simplex noise, ridged multifractal and level construction tools, Eric made custom music, game design and player movement, and I dealt with the graphics and rendering pipeline.&lt;/p&gt;
 
 &lt;p&gt;Features:&lt;/p&gt;
