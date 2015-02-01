@@ -20,6 +20,3 @@ An Anderson lower, a Palmetto State Armory lower parts kit, a Magpul MOE grip an
 Assembled
 ![Complete lower](https://farm3.staticflickr.com/2945/15206482907_d0d430e1f0_c.jpg)
 ![Finished 1](https://farm3.staticflickr.com/2948/15206484627_2c3bf3fb2c_c.jpg)
-
-
-
