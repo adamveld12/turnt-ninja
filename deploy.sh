@@ -1,2 +1,2 @@
 git rm -rf public/*
-./hugo.exe --log
+./hugo.exe --log --theme=hughost

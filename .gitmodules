@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:adamveld12/adamveld12.github.io.git
+[submodule "themes/hughost"]
+	path = themes/hughost
+	url = git@github.com:adamveld12/hughost.git

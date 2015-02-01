@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://words.veldhousen.ninja/</loc>
+    <lastmod>2015-01-14T20:30:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://words.veldhousen.ninja/about/</loc>
+    <lastmod>2015-01-14T20:30:06-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://words.veldhousen.ninja/posts/1GAM/</loc>
+    <lastmod>2015-01-14T20:30:06-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://words.veldhousen.ninja/projects/arcade/</loc>
+    <lastmod>2012-02-16T02:27:45-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://words.veldhousen.ninja/projects/balldescent/</loc>
+    <lastmod>2011-05-16T02:27:45-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://words.veldhousen.ninja/projects/infinecraft/</loc>
+    <lastmod>2010-04-16T02:27:52-06:00</lastmod>
+  </url>
+  
+</urlset>
