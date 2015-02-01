@@ -3,36 +3,18 @@
   <channel>
       <title>Posts on Posts and Stuff </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://localhost:1313/posts/index.xml/</link>
+    <link>http://words.veldhousen.ninja/posts/index.xml/</link>
     <language>en-us</language>
     
     
-    <updated>Fri, 16 Jan 2015 21:57:02 CST</updated>
-    
-    <item>
-      <title>One Game A Month: January Entry</title>
-      <link>http://localhost:1313/posts/1GAM-mud/</link>
-      <pubDate>Fri, 16 Jan 2015 21:57:02 CST</pubDate>
-      
-      <guid>http://localhost:1313/posts/1GAM-mud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visualizing Torrents In Go</title>
-      <link>http://localhost:1313/posts/torrent-tracker/</link>
-      <pubDate>Fri, 16 Jan 2015 21:54:43 CST</pubDate>
-      
-      <guid>http://localhost:1313/posts/torrent-tracker/</guid>
-      <description></description>
-    </item>
+    <updated>Wed, 14 Jan 2015 20:30:06 CST</updated>
     
     <item>
       <title>One Game A Month (1GAM) 2015</title>
-      <link>http://localhost:1313/posts/1GAM/</link>
+      <link>http://words.veldhousen.ninja/posts/1GAM/</link>
       <pubDate>Wed, 14 Jan 2015 20:30:06 CST</pubDate>
       
-      <guid>http://localhost:1313/posts/1GAM/</guid>
+      <guid>http://words.veldhousen.ninja/posts/1GAM/</guid>
       <description>
 
 &lt;p&gt;A few friends of mine mentioned &lt;a href=&#34;http://www.onegameamonth.com&#34;&gt;One Game A Month&lt;/a&gt; and I saw it as a perfect opportunity to pick up a couple of projects to help hone some of my newly acquired skills in &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt; and &lt;a href=&#34;http://www.rust-lang.org/&#34;&gt;Rust&lt;/a&gt;. I sat down and banged out a list of objectives for my 1GAM, and I&amp;rsquo;m going to try to incorporate the following techniques in some of them. Every game doesn&amp;rsquo;t have to have all or any of these, they&amp;rsquo;re just some things I hope to have under my belt by the end of the year:&lt;/p&gt;
@@ -66,101 +48,6 @@
 
 &lt;p&gt;Rhythm game in HTML5&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Dirty, Delicious Tweets</title>
-      <link>http://localhost:1313/posts/vulgartweetstream/</link>
-      <pubDate>Wed, 05 Nov 2014 00:46:47 CST</pubDate>
-      
-      <guid>http://localhost:1313/posts/vulgartweetstream/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AR-15 Build</title>
-      <link>http://localhost:1313/posts/ar15build/</link>
-      <pubDate>Sat, 30 Aug 2014 12:46:25 -0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/ar15build/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been wanting to get into firearms for a while now. With college, work obligations and life in general standing in the way you tend to put things like starting new hobbies on hold. After throwing up my hands and getting my shit together, I started researching and settled on the trusty AR-15 as my first gun. Since one of the main strengths of ARs are the availability of parts (some even say they&amp;rsquo;re adult legos) I figured I&amp;rsquo;d take on the challenge of building my own.&lt;/p&gt;
-
-&lt;p&gt;I knew that I wanted a midrange build that could end up being a decent multi purpose rifle.&lt;/p&gt;
-
-&lt;p&gt;A Delton upper parts kit and an Anderson upper
-&lt;img src=&#34;https://farm4.staticflickr.com/3885/15389816641_4b942b5077_c.jpg&#34; alt=&#34;Stripped upper and parts kit&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Finished product
-&lt;img src=&#34;https://farm4.staticflickr.com/3895/15206242359_ae01fc0159_c.jpg&#34; alt=&#34;Complete Upper&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;An Anderson lower, a Palmetto State Armory lower parts kit, a Magpul MOE grip and some no name adjustable stock that came with the bundle
-&lt;img src=&#34;https://farm4.staticflickr.com/3848/15369971046_d3c441501a_c.jpg&#34; alt=&#34;Before I started&#34; /&gt;
-
-Assembled
-&lt;img src=&#34;https://farm3.staticflickr.com/2945/15206482907_d0d430e1f0_c.jpg&#34; alt=&#34;Complete lower&#34; /&gt;
-
-&lt;img src=&#34;https://farm3.staticflickr.com/2948/15206484627_2c3bf3fb2c_c.jpg&#34; alt=&#34;Finished 1&#34; /&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Headlight Stickerbomb</title>
-      <link>http://localhost:1313/posts/headlight_stickerbomb/</link>
-      <pubDate>Thu, 14 Aug 2014 00:20:36 -0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/headlight_stickerbomb/</guid>
-      <description>&lt;p&gt;I had some left over sticker vinyl sheets from stickerbombing my new &lt;a href=&#34;/posts/rollbar_stickerbomb/&#34;&gt;rollbar&lt;/a&gt; and I decided that my headlight covers looked a bit boring. About 20 minutes with a hair dryer and scissors gave me this pretty rad look.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://farm4.staticflickr.com/3890/15369961006_dcb95c6b91_c.jpg&#34; alt=&#34;miata&#34; /&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>So I Scored a Rollbar</title>
-      <link>http://localhost:1313/posts/rollbar_stickerbomb/</link>
-      <pubDate>Thu, 14 Aug 2014 00:12:59 -0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/rollbar_stickerbomb/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been enjoying my convertible this summer, so needless to say I&amp;rsquo;ve got a pretty bad case of miata fever. With that said, I occasionally lurk craigslist for goodies, and I happened to score a rollbar from Jeff, the miata dude I met a few months ago! A few text messages and about $200 later I have a slightly used rollbar in my possession.&lt;/p&gt;
-
-&lt;p&gt;Now this thing is cool, don&amp;rsquo;t get me wrong, but its black and all around pretty meh. After falling in love with the &lt;a href=&#34;http://www.buscatuning.com/wp-content/uploads/2012/10/sticker-bombing-8.jpg&#34;&gt;sticker bomb stance&lt;/a&gt; thing going on, and how cheap it seems to be to get a good look, I bought some sticker vinyl sheets on Amazon and went to work. The end result below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://farm4.staticflickr.com/3850/15206237469_5c3c495588_c.jpg&#34; alt=&#34;sticker bombed rollbar&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m not sure when I&amp;rsquo;m going to install this thing. I was warned by Jeff that its a pain in the ass, so I&amp;rsquo;m not looking forward to it. I&amp;rsquo;m going to have to pick up a few more tools since it requires drilling into the body for the mounting bolts. I plan on posting about the process with plenty of step by step pictures and commentary in the coming months.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New Boots</title>
-      <link>http://localhost:1313/posts/shiftbootreplace/</link>
-      <pubDate>Tue, 15 Jul 2014 01:04:07 -0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/shiftbootreplace/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dope Dubs</title>
-      <link>http://localhost:1313/posts/newwheels/</link>
-      <pubDate>Sat, 15 Mar 2014 01:04:15 -0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/newwheels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cheap Ebay Shit For My Car #1</title>
-      <link>http://localhost:1313/posts/cheaposteeringwheel/</link>
-      <pubDate>Fri, 15 Nov 2013 01:04:30 CST</pubDate>
-      
-      <guid>http://localhost:1313/posts/cheaposteeringwheel/</guid>
-      <description></description>
     </item>
     
   </channel>
