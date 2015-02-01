@@ -5,12 +5,7 @@
    <!--[if lt IE 8]>
        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
    <![endif]-->
-  <div class="post-home">
-    <h1>
-      <a href="{{ .Site.BaseUrl}}" >{{ .Site.Params.Author }}</a>
-    </h1>
-    {{ partial "social.html" . }}
-  </div>
+  {{ partial "post_banner.html" . }}
   <!-- header -->
   <article class="post main">
     <header>

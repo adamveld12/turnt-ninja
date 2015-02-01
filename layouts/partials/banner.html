@@ -4,5 +4,9 @@
     <h1>{{ .Site.Params.Author }}</h1>
     <div class="meta">{{ .Site.Params.Description }}</div>
     {{ partial "social.html" . }}
+    <ul class="listing">
+      <li><a href="{{ .Site.BaseUrl}}/projects">Projects</a></li>
+      <li><a href="{{ .Site.BaseUrl}}/colophon/about">Colophon</a></li>
+    </ul>
   </div>
 </header>
