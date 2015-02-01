@@ -1,1 +1,1 @@
-hugo server --watch -D -t=hughost -d=$GOPATH/src/github.com/adamveld12/turnt-ninja/public -s=$GOPATH/src/github.com/adamveld12/turnt-ninja -F
+hugo server --watch -D --source=$GOPATH/src/github.com/adamveld12/turnt-ninja --theme="hughost" --destination=$GOPATH/src/github.com/adamveld12/turnt-ninja/public -F
