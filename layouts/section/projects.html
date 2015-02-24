@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
   <body>
-   <!--[if lt IE 8]>
-       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-   <![endif]-->
   <!-- header -->
-  <header class="site-head">
-    <div class="header">
-      <h1>Projects</h1>
-      <div class="meta">Stuff that I've made.</div>
-      {{ partial "social.html" . }}
-      <ul class="listing">
-        <li><a href="{{ .Site.BaseUrl}}">Archive</a></li>
-        <li><a href="{{ .Site.BaseUrl}}/projects">Projects</a></li>
-        <li><a href="{{ .Site.BaseUrl}}/colophon/about">Colophon</a></li>
-      </ul>
-    </div>
-  </header>
+  {{ partial "site-header.html" . }}
+  <div class="banner"></div>
+
   <!-- post list -->
-  <main role="main" class="content">
-    <section>
-      <ul id="list" style="list-style-type: none;" class="posts">
+  <main role="main" class="container">
+   <!--[if lt IE 8]>
+      <div class="aside">
+       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+   <![endif]-->
+    <section class="posts">
+      <header style="text-align: center;">
+        <h1> Projects </h1>
+      </header>
+      <ul class="recent">
         {{ range where .Data.Pages "Section" "projects" }}
-        <li>
-          {{ .Render "summary"}}
-        </li>
+        <li> {{ .Render "summary-banner"}} </li>
         {{ end }}
       </ul>
     </section>
-    {{ partial "copyright-notice.html" . }}
-  
   </main>
+  {{ partial "footer.html" . }}
   {{ partial "scripts.html" . }}
   </body>
 </html>

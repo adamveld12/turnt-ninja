@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  <body>
+   <!--[if lt IE 8]>
+      <div class="aside">
+       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+   <![endif]-->
+
+  <!-- header -->
+  {{ partial "site-header.html" . }}
+
+  <div class="banner"></div>
+
+  <!-- post list -->
+  <main role="main" class="container">
+
+    <!-- Recent Posts -->
+    <section class="posts">
+      <ul class="recent">
+        {{ range first 5 (where .Data.Pages "Section" "posts") }}
+          <li> {{ .Render "summary-banner" }}</li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <div class="rule" ><hr>All Posts<hr></div>
+
+    <section class="posts">
+      <ul class="listing">
+        {{ range where .Data.Pages "Section" "posts" }}
+        <li> {{ .Render "summary"}} </li>
+        {{ end }}
+      </ul>
+    </section>
+
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "scripts.html" . }}
+  </body>
+</html>

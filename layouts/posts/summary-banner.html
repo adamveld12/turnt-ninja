@@ -1,0 +1,8 @@
+<a href="{{ .Permalink }}">
+  <div class="banner" style="background-image: url(/img{{ .RelPermalink }}banner.jpg);">
+    <header>
+      {{ .Title }}
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+    </header>
+  </div>
+</a>
