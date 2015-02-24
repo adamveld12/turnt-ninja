@@ -1,6 +1,6 @@
 +++
 date = "2015-01-14T20:30:06-06:00"
-draft = false
+draft = true
 title = "One Game A Month (1GAM) 2015"
 tags = [ "Games", "Programming", "1GAM" ]
 +++
