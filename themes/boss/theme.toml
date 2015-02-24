@@ -1,0 +1,9 @@
+name = "Boss"
+license = "MIT"
+description = "A theme based off of Zach Holman's blog"
+tags = ["blog"]
+features = ["blog"]
+
+[author]
+    name = "Adam Veldhousen"
+    homepage = "http://words.veldhousen.ninja"

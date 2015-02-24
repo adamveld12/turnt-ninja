@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:adamveld12/adamveld12.github.io.git
+[submodule "themes/boss"]
+	path = themes/boss
+	url = git@github.com:adamveld12/boss.git

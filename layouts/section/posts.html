@@ -1,34 +1,25 @@
+
 <!DOCTYPE html>
 <html class="no-js" lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . }}
   <body>
-
   <section role="main" >
     {{ partial "site-header.html" . }}
     <div class="banner"></div>
-
-		{{ partial "browser_warning.html" . }}
-
+    {{ partial "browser_warning.html" . }}
+    <!-- Recent Posts -->
     <section class="container posts">
+      <header class="section-head" >
+        <h1> Archives </h1>
+      </header>
       <ul class="recent">
-        {{ range first 5 (where .Data.Pages "Section" "posts") }}
+        {{ range (where .Data.Pages "Section" "posts") }}
           <li> {{ .Render "summary_banner" }}</li>
         {{ end }}
       </ul>
     </section>
-
-    <section class="container posts">
-      <div class="rule" ><hr><a href="/posts/">All Posts</a><hr></div>
-      <ul class="listing">
-        {{ range where .Data.Pages "Section" "posts" }}
-        <li> {{ .Render "summary"}} </li>
-        {{ end }}
-      </ul>
-    </section>
-
     {{ partial "footer.html" . }}
   </section>
-
   {{ partial "scripts.html" . }}
   </body>
 </html>
