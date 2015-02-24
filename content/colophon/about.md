@@ -8,6 +8,7 @@ weight = 4
 
 I'm a DIY'er, amateur photographer, gun lover, car enthusiast and software developer for [MTM Recognition](http://www.mtmrecognition.com). When I'm not doing any of that junk, I spend time with my amazing family.
 
+<!--more-->
 <!-- ![The family](https://farm4.staticflickr.com/3887/15206285410_04c662c51a.jpg) -->
 <hr/>
 
