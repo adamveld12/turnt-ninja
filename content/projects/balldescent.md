@@ -17,26 +17,9 @@ The game features:
 
 We used pretty much every feature of UDK. All Unrealscript was written by Josh and myself, and the music, scaleform menus, and game design/playability were contributions from Eric. This project spanned about 5 weeks time, and ended with a playable game that we demoed at Neumont's Project Showcase.
 
-<div id="carousel">
-  <ul style="margin-left: 0px;">
-    <li> 
-      <img width="780" src="http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_857034.png" alt="1"/>
-    </li>
-    <li> 
-      <img width="780" src="http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_891777.png" alt="2"/>
-    </li>
-    <li> 
-      <img width="780" src="http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_481951.png" alt="3"/>
-    </li>
-    <li> 
-      <img width="780" src="http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_1249978.png" alt="4"/>
-    </li>
-    <li> 
-      <img width="780" src="http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_272212.png" alt="5"/>
-    </li>
-    <li> 
-        <img width="780" src="http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_555620.png" alt="6"/>
-    </li>
-  </ul>
-</div>
-
+![1](http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_857034.png)
+![2](http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_891777.png)
+![3](http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_481951.png)
+![4](http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_1249978.png)
+![5](http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_272212.png)
+![6](http://uploads.gamedev5.net/gallery/album_455/gallery_191780_455_555620.png)
