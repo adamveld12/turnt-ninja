@@ -1,12 +1,12 @@
 baseurl = "http://words.veldhousen.ninja"
 languageCode = "en-us"
 title = "Ramblings"
-DisqusShortname = "wordsveldhousen"
+disqusShortname = "wordsveldhousen"
+copyright="Adam Veldhousen"
 
 [params]
-  Copyright = "Adam V"
-  Description = "Guns, Code, Beer, Pictures"
   Author = "Adam Veldhousen"
+  Description = "Guns, Code, Beer, Pictures"
   FirstName = "Adam"
   LastName = "Veldhousen"
   Twitter = "@adamveld12"
