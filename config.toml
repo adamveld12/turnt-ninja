@@ -2,7 +2,7 @@ baseurl = "http://words.veldhousen.ninja"
 languageCode = "en-us"
 title = "Ramblings"
 disqusShortname = "wordsveldhousen"
-copyright="Adam Veldhousen"
+copyright="Adam Veldhousen 2015"
 
 [params]
   Author = "Adam Veldhousen"
